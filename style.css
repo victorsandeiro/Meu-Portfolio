@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* Corpo do site */
 body {
     padding-top: 40px;
@@ -191,13 +193,13 @@ color:rgb(30, 48, 82);
     display: inline-block;
     white-space: nowrap;
     animation: correndo 14s linear infinite;
-    color:#ffffff;
+    color:#ddd;
     text-decoration: none;
 }
 
 .marquee a:hover{
-    text-decoration: underline;
-    color: #60e5f7;
+text-decoration: underline;
+color: rgb(94, 168, 238);
 }
 
 @keyframes correndo {
